@@ -16,7 +16,23 @@
  */
 
 // Finish the code of the function
-function exercise01() {}
+function exercise01(a = 1, b = 1) {
+    return a * b;
+}
 
 // Don’t change the code bellow this line
 export default exercise01;
+
+
+/*
+TEST:
+
+ 01-exercise
+    ✓ add a default value to each parameter (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.989 s, estimated 2 s
+
+*/
