@@ -41,7 +41,22 @@
  */
 
 // Finish the code of the function
-function exercise02() {}
+function exercise02({firstName = "Default firstName", lastName = "Default lastName",}) {
+    return `Hello I am ${firstName + " " + lastName}`
+}
 
 // Don’t change the code bellow this line
 export default exercise02;
+
+
+/* Prints:
+
+  02-exercise
+    ✓ add default values to each key of the destructured parameter object (2 ms)
+    ✓ return the concatenation of the values in the object
+
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        0.96 s, estimated 1 s
+*/
