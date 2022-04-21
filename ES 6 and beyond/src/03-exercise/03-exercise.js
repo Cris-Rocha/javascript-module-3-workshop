@@ -25,7 +25,22 @@
  */
 
 // Finish the code of the function
-const exercise03 = () => {};
+const exercise03 = (a,b, ...rest) => {
+    return rest
+};
 
 // Don’t change the code bellow this line
 export default exercise03;
+
+/* Prints
+
+ PASS  src/__tests__/03-exercise.test.js
+  03-exercise
+    ✓ return the ...rest parameters (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.972 s, estimated 2 s
+
+*/
