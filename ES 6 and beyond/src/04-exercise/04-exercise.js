@@ -17,7 +17,24 @@
  */
 
 // Finish the code of the function
-function exercise04() {}
+function exercise04([a, b, c, d, e]) {
+    return b
+}
 
 // Don’t change the code bellow this line
 export default exercise04;
+
+/*
+Return of the test prints:
+
+ PASS  src/__tests__/04-exercise.test.js
+  04-exercise
+    ✓ destructure the array items and return the second element (1 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.973 s, estimated 2 s
+Ran all test suites matching /src\/__tests__\/04-exercise.test.js/i.
+
+*/
